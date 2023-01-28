@@ -1,0 +1,5 @@
+1	Cassandra	https://www.cassandra.hr/studentski-menu/
+2	Restoran Savska(SC)	http://www.sczg.unizg.hr/prehrana/restorani/savska/
+3	SD "Stjepan Radić"	http://www.sczg.unizg.hr/prehrana/restorani/sd-s-radic/
+4	SD "Cvjetno naselje"	http://www.sczg.unizg.hr/prehrana/restorani/sd-cvjetno-naselje/
+5	SD "Lašćina"	http://www.sczg.unizg.hr/prehrana/restorani/sd-lascina/

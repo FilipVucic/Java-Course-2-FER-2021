@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Server</title>
+    <style>
+        body {
+            background-color: #{$= "background" "0" @tparamGet $};
+        }
+    </style>
+</head>
+<body>
+<a href="/scripts/osnovni.smscr">Osnovni</a>
+<br>
+<a href="/scripts/brojPoziva.smscr">Broj poziva</a>
+<br>
+<a href="/scripts/fibonaccih.smscr">Fibonacci</a>
+<br>
+<a href="/hello">Hello</a>
+<br>
+<a href="/cw">Circle</a>
+<br>
+<form method="GET" action="/calc">
+    <label for="a">a:</label><br>
+    <input type="text" id="a" name="a"><br>
+    <label for="b">b:</label><br>
+    <input type="text" id="b" name="b"><br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<select name="bgcolor" form="bgcolor">
+    <option value="FF0000">Red</option>
+    <option value="00FF00">Green</option>
+    <option value="0000FF">Blue</option>
+</select>
+<form action="/setbgcolor" method="GET" id="bgcolor">
+    <input type="submit">
+</form>
+</body>
+</html>

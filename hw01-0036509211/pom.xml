@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>hr.fer.oprpp2.jmbag0036509211</groupId>
+    <artifactId>hw01-0036509211</artifactId>
+    <version>1.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>14</source>
+                    <target>14</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!-- configuration of basic properties -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>hr.fer.zemris.java.fractals</groupId>
+            <artifactId>fractal-viewer</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>hr.fer.zemris.java.fractals</groupId>
+            <artifactId>fractal-viewer</artifactId>
+            <version>1.1</version>
+            <classifier>javadoc</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.4.0</version>
+            <scope>test</scope>  <!-- compile, provided, runtime, test, system; vidi: https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html -->
+        </dependency>
+    </dependencies>
+
+</project>
